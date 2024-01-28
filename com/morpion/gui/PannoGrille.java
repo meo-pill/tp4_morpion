@@ -32,7 +32,7 @@ class BoutonGrille extends JButton {
 /**
  * Grille de morpion contenant les boutons
  * 
- * @see com.morpion.gui.BoutonGrille
+ * @see JPanel
  */
 class PannoGrille extends JPanel {
 
