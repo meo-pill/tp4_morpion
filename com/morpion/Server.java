@@ -26,6 +26,11 @@ public class Server {
         }
     }
 
+    
+    /** 
+     * @param args
+     * @throws RemoteException
+     */
     public static void main(String[] args) throws RemoteException {
         System.out.println("creation du serveur");
         new Server();
