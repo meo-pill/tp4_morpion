@@ -38,7 +38,7 @@ public class Morpion extends UnicastRemoteObject implements MrpInterface{
             return false; // ce n'est pas le tour du joueur
         }
         // annonce du coup joué
-        System.out.println("joueur " + id_joueur + " joue en" + id_case);
+        System.out.println("joueur " + id_joueur + " joue en " + id_case);
         
         // verification de victoire
         int[] combinaison_gagnante = this.verifVictoire();
